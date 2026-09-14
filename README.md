@@ -49,7 +49,7 @@ regular season, with **606 total points**.
 ## Top 10 Highest-Scoring Regular Seasons
 
 | Season | Team | Total Points |
-|---|---|---|
+|---|---|---:|
 | 2013 | Denver Broncos | 606 |
 | 2007 | New England Patriots | 589 |
 | 2018 | Kansas City Chiefs | 565 |
@@ -84,7 +84,7 @@ Running the program generates the chart at `charts/top_10_nfl_scoring.png`.
 
 1. Make sure Python 3 is installed, along with pandas and matplotlib:
    ```
-   python3 -m pip install pandas matplotlib
+   python3 -m pip install -r requirements.txt
    ```
 2. Keep `nfl_points.py` and `spreadspoke_scores.csv` in the same folder.
 3. Run the script:
@@ -93,8 +93,7 @@ Running the program generates the chart at `charts/top_10_nfl_scoring.png`.
    ```
 4. The script will print the first few rows of data, the top 10
    highest-scoring team-seasons, and the basic statistics to the console. It
-   will also display the bar chart and save it as `charts/top_10_nfl_scoring.png`
-   in the same folder.
+   will also display the bar chart and save it as `charts/top_10_nfl_scoring.png`.
 
 ## AI Usage
 
