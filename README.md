@@ -39,7 +39,7 @@ whether the game was a playoff game.
 6. **Print basic statistics.** Uses `.describe()` on all team-season totals
    to summarize the full distribution (count, mean, std, min, quartiles, max).
 7. **Create and save a bar chart.** Plots the top 10 team-seasons as a bar
-   chart and saves it as `top_10_nfl_scoring.png`.
+   chart and saves it as `charts/top_10_nfl_scoring.png`.
 
 ## Main Result
 
@@ -78,7 +78,7 @@ how historic that scoring season was compared to a normal team-season.
 
 ## Chart
 
-![Top 10 Highest-Scoring NFL Regular Seasons](top_10_nfl_scoring.png)
+Running the program generates the chart at `charts/top_10_nfl_scoring.png`.
 
 ## How to Run This Project
 
@@ -93,7 +93,7 @@ how historic that scoring season was compared to a normal team-season.
    ```
 4. The script will print the first few rows of data, the top 10
    highest-scoring team-seasons, and the basic statistics to the console. It
-   will also display the bar chart and save it as `top_10_nfl_scoring.png`
+   will also display the bar chart and save it as `charts/top_10_nfl_scoring.png`
    in the same folder.
 
 ## AI Usage
