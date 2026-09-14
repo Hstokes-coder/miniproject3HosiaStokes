@@ -6,7 +6,7 @@ Which NFL team scored the most total points in a regular season?
 
 ## Dataset Used
 
-`spreadspoke_scores (1).csv` — a historical NFL game-by-game dataset covering
+`spreadspoke_scores.csv` — a historical NFL game-by-game dataset covering
 regular season and playoff games from 1966 to 2025. Each row is one game and
 includes the season, week, home team, away team, home score, away score, and
 whether the game was a playoff game.
@@ -21,7 +21,7 @@ whether the game was a playoff game.
 
 `nfl_points.py` answers the project question in a few steps:
 
-1. **Load the data.** Reads `spreadspoke_scores (1).csv` into a DataFrame.
+1. **Load the data.** Reads `spreadspoke_scores.csv` into a DataFrame.
 2. **Filter out playoff games.** Keeps only rows where `schedule_playoff` is
    `False`, since the question is about regular-season scoring.
 3. **Combine home and away scoring into one table.** In the raw data, a
@@ -86,7 +86,7 @@ how historic that scoring season was compared to a normal team-season.
    ```
    python3 -m pip install pandas matplotlib
    ```
-2. Keep `nfl_points.py` and `spreadspoke_scores (1).csv` in the same folder.
+2. Keep `nfl_points.py` and `spreadspoke_scores.csv` in the same folder.
 3. Run the script:
    ```
    python3 nfl_points.py
@@ -95,3 +95,7 @@ how historic that scoring season was compared to a normal team-season.
    highest-scoring team-seasons, and the basic statistics to the console. It
    will also display the bar chart and save it as `top_10_nfl_scoring.png`
    in the same folder.
+
+## AI Usage
+
+Claude Code was used to help debug Python errors, explain Pandas methods.
