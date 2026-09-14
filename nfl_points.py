@@ -1,3 +1,8 @@
+# INF601 - Advanced Programming in Python
+# Hosia Stokes
+# Mini Project 3
+
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -48,6 +53,9 @@ print(top_10)
 print("\nBasic statistics for team-season point totals:")
 print(season_totals.describe())
 
+# Create the charts folder if it does not already exist
+os.makedirs("charts", exist_ok=True)
+
 # Make a bar chart of the top 10
 top_10.plot(kind="bar")
 
@@ -56,8 +64,11 @@ plt.xlabel("Season and Team")
 plt.ylabel("Total Points")
 plt.tight_layout()
 
-# Save the graph as an image
-plt.savefig("top_10_nfl_scoring.png", bbox_inches="tight")
+# Save the graph inside the charts folder
+plt.savefig(
+    "charts/top_10_nfl_scoring.png",
+    bbox_inches="tight"
+)
 
 # Show the graph
 plt.show()
