@@ -97,4 +97,6 @@ Running the program generates the chart at `charts/top_10_nfl_scoring.png`.
 
 ## AI Usage
 
-Claude Code was used to help debug Python errors, explain Pandas methods.
+## AI Usage
+
+Claude Code was used as a debugging and learning assistant during development. It helped identify and fix Python errors, verify that the renamed CSV file matched the filename used in the script, explain Pandas methods such as `groupby()` and `.describe()`, and check that the chart output and file paths were working correctly. Claude Code was also used to review parts of the README for consistency with the finished project. The code and results were reviewed and tested before submission.
