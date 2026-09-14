@@ -95,7 +95,6 @@ Running the program generates the chart at `charts/top_10_nfl_scoring.png`.
    highest-scoring team-seasons, and the basic statistics to the console. It
    will also display the bar chart and save it as `charts/top_10_nfl_scoring.png`.
 
-## AI Usage
 
 ## AI Usage
 
